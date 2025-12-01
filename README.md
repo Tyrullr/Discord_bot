@@ -19,4 +19,5 @@ Le bot respecte toutes les contraintes techniques imposées :
    pip install discord.py
 
 2. **lancement**
-    * python main.py
+    ```bash
+    python main.py
