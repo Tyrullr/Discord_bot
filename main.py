@@ -1,10 +1,16 @@
 import discord
+import json
 from structures import bot_data, HistoryStack
 from storage import save_data, load_data
 from content import quiz_tree, encyclopedia
 import features
 
-TOKEN = test
+def get_token():
+    with open("config.json", "r") as f:
+        config = json.load(f)
+        return config["token"]
+
+TOKEN = get_token()
 
 intents = discord.Intents.default()
 intents.message_content = True

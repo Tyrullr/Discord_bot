@@ -1,0 +1,4 @@
+config.json
+poudlard_data.json
+__pycache__/
+*.pyc
