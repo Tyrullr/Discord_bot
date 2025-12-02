@@ -23,7 +23,7 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_ready():
     load_data()  # Load saved data
-    print(f"Bot connected : {client.user}")
+    print(f"Bot connect: : {client.user}")
 
 # Event triggered when the bot disconnects
 @client.event

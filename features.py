@@ -9,6 +9,7 @@ def get_help_message():
     `!Choixpeau` : Lance le test pour connaître ta maison.
     `!reset` : Recommence le test au début.
     `!history` : Voir tes dernières actions.
+    `!clear_history` : Efface ton historique.
     `!savoir [mot]` : Ouvre le grimoire (ex: !savoir lumos).
     `!hibou @Nom [msg]` : Envoie un message privé.
     `!rapeltout [sec] [msg]` : Programme un rappel.
